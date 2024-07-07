@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form class="form" id="form">
+        <h1 class="title">Registration Form</h1>
+        <div class="form-row">
+            <label for="username" >UserName</label>
+            <input id="username" type="text" name="username" class="input">
+            <small class="error">Error</small>
+        </div>
+        <div class="form-row">
+            <label for="email">
+                Email
+            </label>
+            <input id="email" name="emailID" class="input">
+            <small class="error"></small>
+        </div>
+        <div class="form-row">
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password" class="input">
+            <small class="error"></small>
+        </div>
+        <div class="form-row">
+            <label for="confirmPassword">Confirm Password</label>
+            <input id="confirmPassword" name="confirmPassword"  type="password" class="input">
+            <small class="error"></small>
+        </div>
+        <div class="btn submit">
+            <button id="btn-Submit">Submit</button>
+        </div>
+    </form>
+    <script src="./scripts/script.js"></script>    
+</body>
+</html>
